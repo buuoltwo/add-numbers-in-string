@@ -16,9 +16,9 @@ public class Main {
     }
 
     private static int string2Int(String str) {
-        if(str == null) {
+        if (str == null) {
             return 0;
         }
-        return Integer.parseInt(str,10);
+        return Integer.parseInt(str, 10);
     }
 }
